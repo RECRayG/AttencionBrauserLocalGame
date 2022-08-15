@@ -1,0 +1,355 @@
+/* Общая настройка шрифта для страницы */
+html {
+    font-family: "Exo 2", sans-serif;
+	background-color: #dbdbdb;
+}
+
+/* Настройка таблицы (стандартный размер: 3х3) */
+#board {
+    display: block;
+    float: left;
+    margin: 120px 0 0 500px;
+    padding: 2px;
+    border: 2px solid #21027D;
+    width: 207px;
+    height: 207px;
+    position: relative;
+    background-color: #FCF8FF;
+}
+
+.block {
+    display: block;
+    position: absolute;
+    width: 62px;
+    height: 57px;
+    border: 2px solid #9B89B3;
+    background-color: #FCF8FF;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: #21027D;
+    padding-top: 5px;
+    border-radius: 10px;
+	cursor: pointer;
+}
+
+.active {
+    background: #737373;
+    color: #FCF8FF;
+}
+
+.timer {
+	display: block;
+    float: left;
+    margin: 25px 0 0 3px;
+    padding: 10px 0px;
+	width: 150px;
+    height: 50px;
+	color: #DBDBDB;
+}
+
+.timerText {
+	position: absolute;
+	display: block;
+    float: left;
+    margin: 55px 0 0 59px;
+    padding: 10px 0px;
+	width: 150px;
+    height: 50px;
+	font-family: "lcdnormal";
+	color: #DBDBDB;
+}
+
+/* Настройка кнопок */
+.button {
+    display: block;
+    float: left;
+    margin: 25px 0 0 25px;
+    padding: 10px 0px;
+	width: 150px;
+    height: 50px;
+}
+/* Настройка кнопки "Начать игру" */
+#new {
+    margin: 25px 0 0 0px;
+    padding: 10px 0px;
+	width: 150px;
+    height: 50px;
+}
+/* Настройка кнопки "Остановить игру" */
+#stop {
+    margin: 25px 0 0 0px;
+    padding: 10px 0px;
+	width: 150px;
+    height: 50px;
+}
+
+/* Настройка селектора */
+#count {
+	color: black;
+    display: inline-block;
+    white-space: pre;
+    background-color: white;
+    cursor: pointer;
+    font: 400 20px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+	width: 100px;
+	padding: 8px 20px;
+}
+
+/* Настройка текста перед селектором */
+.list {
+	margin: 25px 0 0 10px;
+	color: black;
+}
+
+.x1y1 {
+    left: 0px;
+    top: 0px;
+}
+
+.x2y1 {
+      left: 70px;
+      top: 0px;
+}
+
+.x3y1 {
+    left: 140px;
+    top: 0px;
+}
+
+.x4y1 {
+      left: 210px;
+      top: 0px;
+}
+
+.x5y1 {
+      left: 280px;
+      top: 0px;
+}
+
+.x6y1 {
+      left: 350px;
+      top: 0px;
+}
+
+.x7y1 {
+      left: 420px;
+      top: 0px;
+}
+
+.x1y2 {
+    left: 0px;
+    top: 70px;
+}
+
+.x2y2 {
+    left: 70px;
+    top: 70px;
+}
+
+.x3y2 {
+      left: 140px;
+      top: 70px;
+}
+
+.x4y2 {
+    left: 210px;
+    top: 70px;
+}
+
+.x5y2 {
+      left: 280px;
+      top: 70px;
+}
+
+.x6y2 {
+      left: 350px;
+      top: 70px;
+}
+
+.x7y2 {
+      left: 420px;
+      top: 70px;
+}
+
+.x1y3 {
+    left: 0px;
+    top: 140px;
+}
+
+.x2y3 {
+    left: 70px;
+    top: 140px;
+}
+
+.x3y3 {
+      left: 140px;
+      top: 140px;
+}
+
+.x4y3 {
+    left: 210px;
+    top: 140px;
+}
+
+.x5y3 {
+      left: 280px;
+      top: 140px;
+}
+
+.x6y3 {
+      left: 350px;
+      top: 140px;
+}
+
+.x7y3 {
+      left: 420px;
+      top: 140px;
+}
+
+.x1y4 {
+    left: 0px;
+    top: 210px;
+}
+.x2y4 {
+      left: 70px;
+      top: 210px;
+}
+
+.x3y4 {
+    left: 140px;
+    top: 210px;
+}
+
+.x4y4 {
+      left: 210px;
+      top: 210px;
+}
+
+.x5y4 {
+      left: 280px;
+      top: 210px;
+}
+
+.x6y4 {
+      left: 350px;
+      top: 210px;
+}
+
+.x7y4 {
+      left: 420px;
+      top: 210px;
+}
+
+.x1y5 {
+    left: 0px;
+    top: 280px;
+}
+.x2y5 {
+      left: 70px;
+      top: 280px;
+}
+
+.x3y5 {
+    left: 140px;
+    top: 280px;
+}
+
+.x4y5 {
+      left: 210px;
+      top: 280px;
+}
+
+.x5y5 {
+      left: 280px;
+      top: 280px;
+}
+
+.x6y5 {
+      left: 350px;
+      top: 280px;
+}
+
+.x7y5 {
+      left: 420px;
+      top: 280px;
+}
+
+.x1y6 {
+    left: 0px;
+    top: 350px;
+}
+.x2y6 {
+      left: 70px;
+      top: 350px;
+}
+
+.x3y6 {
+    left: 140px;
+    top: 350px;
+}
+
+.x4y6 {
+      left: 210px;
+      top: 350px;
+}
+
+.x5y6 {
+      left: 280px;
+      top: 350px;
+}
+
+.x6y6 {
+      left: 350px;
+      top: 350px;
+}
+
+.x7y6 {
+      left: 420px;
+      top: 350px;
+}
+
+.x1y7 {
+    left: 0px;
+    top: 420px;
+}
+.x2y7 {
+      left: 70px;
+      top: 420px;
+}
+
+.x3y7 {
+    left: 140px;
+    top: 420px;
+}
+
+.x4y7 {
+      left: 210px;
+      top: 420px;
+}
+
+.x5y7 {
+      left: 280px;
+      top: 420px;
+}
+
+.x6y7 {
+      left: 350px;
+      top: 420px;
+}
+
+.x7y7 {
+      left: 420px;
+      top: 420px;
+}
+
+@font-face {
+font-family: "lcdnormal"; 
+src: url("../fonts/lcdnormal.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 

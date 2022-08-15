@@ -1,0 +1,9 @@
+{
+  "name": "reaction",
+  "version": "0.0.0",
+  "description": "reaction",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Игра на внимание</title>
+		<!--Подключение файла стилей к html документу-->
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://allfont.ru/allfont.css?fonts=a_lcdnova" type="text/css"/>
+	</head>
+	<body>
+
+		<div class="list">
+			Выберите размерность таблицы:
+			<select name="count" id="count">
+				<option value="9">3x3</option>
+				<option value="16">4x4</option>
+				<option value="25">5x5</option>
+				<option value="36">6x6</option>
+				<option value="49">7x7</option>
+			</select>
+		</div>
+
+		<div class="button">
+			<div>
+				<input type="button" id="new" value="Начать игру"/>
+			</div>
+			<div>
+				<input type="button" id="stop" value="Остановить игру"/>
+			</div>
+			<div class="timer">Оставшееся время:</div>
+			<div class="timerText">--:--</div>
+		</div>
+
+		<div id="board">
+			<!--Сюда помещаются дивы с обозначением их номера и координат x и y-->
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="server.js"></script>
+	</body>
+</html>

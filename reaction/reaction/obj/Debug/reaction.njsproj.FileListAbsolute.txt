@@ -1,0 +1,3 @@
+D:\Отчёты\Web-программирование\РГР\my_code\reaction\reaction\obj\Debug\reaction.njsproj.AssemblyReference.cache
+D:\Отчёты\Web-программирование\РГР\my_code\reaction\reaction\obj\Debug\reaction.njsproj.CoreCompileInputs.cache
+D:\Отчёты\Web-программирование\РГР\my_code\reaction\reaction\bin\Microsoft.NodejsTools.WebRole.dll
